@@ -1,0 +1,401 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+img{
+  max-width: 100%;
+}
+.container{
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name{
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.description{
+  margin-left: 9px;
+}
+.menu-logo{
+  display: flex;
+  align-items: center;
+}
+.avatar{
+  width: 57px;
+  height: 57px;
+  background: url(https://pp.userapi.com/c851132/v851132177/93a00/lkE1LvkQp-I.jpg);
+  background-size: 100%;
+  border-radius: 50%;
+}
+.menu-list{
+  display: flex;
+  align-items: center;
+}
+.menu-list a {
+  text-decoration: none;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 34px;
+  
+  display: inline-block;
+  line-height: 1;
+  text-decoration:none;
+  position:relative;
+} 
+.menu-button {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+}
+.menu-list a:after {
+    background-color: black;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+a:hover:after,
+a:focus:after {
+    width: 100%;
+}
+.hero{
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url("https://wmpics.pics/di-CFIR.png") no-repeat right   bottom;
+}
+.hero-subtitle{
+  font-size: 32px;  
+}
+.hero-title{
+  font-size: 45px; 
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hero-description{
+  font-size: 18px; 
+  color: #6a696b;
+}
+.hero-social{
+  margin-top: 30px;
+}
+.social{
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+.behance-bg{
+  background-color: #1869ff;
+}
+.facebook-bg{
+  background-color: #3a5898;
+}
+.instagram-bg{
+  background-color: #13578a;
+}
+.vk-bg{
+  background-color: #56acef;
+}
+.hero-buttons{
+  margin-top: 40px;
+}
+.button{
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+}
+.button-primary{
+  color: #fff;
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+.button-o{
+  background-color: transparent;
+  color: #6a696b; 
+  border: 1px solid #6a696b;
+}
+.projects {
+  padding: 97px 0;
+}
+.project-cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project-card{
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+.project-card__image{
+  height: 300px;
+}
+.landing-page{
+  background: url("https://www.brightedge.com/sites/default/files/landing%20page%20content%20optimization.jpg") center no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.thomas-green{
+  background: url("http://s15.buyreklama.ru/zelenograd/photos/33710798/156005c5baf40ff51a327f1c34f2975b.jpg") center no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bxready{
+  background: 
+url("https://creativestudio24.ru/wp-content/gallery/d0bad0bed180d0bfd0b0d180d0b0d182/3.jpg") center no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.liam{
+  background: 
+url("https://s.tmimgcdn.com/scr/47800/full-js3-template-website-template_47865-big.jpg") center no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sky{
+  background: 
+url("https://delovgoru.pro/wp-content/uploads/2016/08/stranica-ceny.png") center no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.repair{
+  background: 
+url("https://megagroup.ru/d/64master.com.jpg") center no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.it{
+  background: 
+url("https://s.tmimgcdn.com/scr/50900/responzivni-sablona-webovych-stranek-na-tema-informacni-technologie_50947-big.jpg?width=965&height=598") center no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.backup{
+  background: 
+url("https://s.tmimgcdn.com/scr/47900/duyarli-muhasebe-web-sitesi-wordpress-temasi_47929-big.jpg?width=965&height=598") center no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.news{
+  background: 
+url("https://html6.com.ru/data/medium/bl-1.jpg") center no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.project-card__info{
+  padding: 19px 13px;
+}
+.project-category{
+  display: block;
+  font-size: 12px;
+  color: #2b2a2c;
+}
+.project-title{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.about_me{
+  background: url("https://wmpics.pics/di-GCK1UCER.png") no-repeat;
+  padding-bottom: 180px;
+}
+.about_me-title{
+  padding-top: 100px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 45px;
+  display: block;
+  padding-bottom: 42px;
+  padding-left: 51%;
+}
+
+.about_me-description{
+  display: block;
+  color: #717072;
+  font-size: 12px;
+  width: 471px;
+  height: 252px;
+  padding-left: 51%;
+}
+
+.about_me-buttons{
+ padding-top: 35px;
+ margin-left: 51%;
+}
+
+.aboutme-primary{
+  color: #fff;
+  margin-right: 17px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+}
+.aboutme-o{
+  background-color: red;
+  color: #6a696b; 
+  border: 1px solid #6a696b;
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+}
+
+.footer{
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+.footer a {
+  color: #8d8d8e;
+  text-decoration: none;
+}
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text{
+  display: flex;
+  align-items: center;
+}
+.copyright{
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+.footer-social__links{
+  font-size: 20px;
+  margin-right: 13px;
+}
+.footer-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-menu a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+}
+.footer-button{
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 8px 22px;
+  border: 1px solid #8d8d8e;
+}
+@media (max-width: 1200px){
+  .container {
+    width: 965px;
+  }
+  .project-card{
+    width: 48%;
+  }
+}
+@media (max-width: 992px) {
+  .copyright{
+    font-size: 12px;
+  }
+  .footer-social__links{
+  font-size: 15px;
+}
+  .footer-menu a {
+  font-size: 13px;
+}
+  .about_me{
+     margin-left: 20%;
+  }
+  .about_me-title{
+    padding-top: 620px;
+    margin-left: -30%;
+  }
+  .about_me-description{
+    margin-left: -48%;
+  }
+  .about_me-buttons{
+     margin-left: 10%;
+  }
+  .container{
+    width: 760px;
+  }
+  .project-card{
+    width: 48%;
+  }
+}
+@media (max-width: 768px) {
+  .copyright{
+    font-size: 10px;
+  }
+  .footer-social__links{
+  font-size: 10px;
+}
+  .footer-menu a {
+  font-size: 9px;
+}
+  .about_me{
+     margin: 0%;
+  }
+  .about_me-description{
+    height:
+  }
+  .description_small{
+    font-size: 10xp;
+  }
+  .menu-list {
+    display: none;
+  }
+  .hero {
+    padding-bottom: 550px;
+    padding-top: 30px;
+  }
+  .container{
+    width: 95%;
+  }
+  .project-card{
+    width: 95%;
+    margin: 30px auto;
+  }
+}
